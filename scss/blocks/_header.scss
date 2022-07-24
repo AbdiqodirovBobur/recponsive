@@ -1,0 +1,27 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .header__nav-list {
+    list-style: none;
+    display: flex;
+    .header__nav-list-item {
+        margin-right: 33px;
+      .header__nav-list-item-link {
+        text-decoration: none;
+        text-align: center;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 15px;
+        letter-spacing: 0.923077px;
+        color: #83888f;
+      }
+      .header__nav-list-item-link:hover {
+        color: black;
+      }
+    }
+  }
+}
+@media only screen {
+    
+}

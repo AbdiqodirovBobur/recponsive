@@ -339,4 +339,36 @@ img {
 
 .main {
   flex-grow: 1;
+}
+
+.container {
+  max-width: 1280px;
+  min-width: 1280px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .header__nav-list {
+  list-style: none;
+  display: flex;
+}
+.header .header__nav-list .header__nav-list-item {
+  margin-right: 33px;
+}
+.header .header__nav-list .header__nav-list-item .header__nav-list-item-link {
+  text-decoration: none;
+  text-align: center;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.923077px;
+  color: #83888f;
+}
+.header .header__nav-list .header__nav-list-item .header__nav-list-item-link:hover {
+  color: black;
 }/*# sourceMappingURL=main.css.map */
